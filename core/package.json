@@ -13,9 +13,13 @@
     "dependencies": {
         "crawler-user-agents": "^1.21.0"
     },
+    "peerDependencies": {
+        "react": ">=18"
+    },
     "devDependencies": {
         "tsdown": "^0.15.11",
-        "typescript": "^5.9.3"
+        "typescript": "^5.9.3",
+        "@types/react": ">=18"
     },
     "packageManager": "pnpm@10.12.4"
 }
