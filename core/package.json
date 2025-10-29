@@ -2,13 +2,13 @@
     "name": "nextjs-device",
     "version": "0.0.0",
     "description": "",
-    "main": "index.js",
     "scripts": {},
-    "packageManager": "pnpm@10.12.4",
-    "devDependencies": {
-        "typescript": "^5.9.3"
-    },
     "dependencies": {
         "crawler-user-agents": "^1.21.0"
-    }
+    },
+    "devDependencies": {
+        "tsdown": "^0.15.11",
+        "typescript": "^5.9.3"
+    },
+    "packageManager": "pnpm@10.12.4"
 }
