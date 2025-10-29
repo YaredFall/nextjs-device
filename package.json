@@ -4,7 +4,8 @@
     "type": "module",
     "scripts": {
         "dev": "pnpm --filter playground dev",
-        "build": "pnpm --filter nextjs-device build"
+        "build": "pnpm --filter nextjs-device build",
+        "release": "pnpm --filter nextjs-device release"
     },
     "packageManager": "pnpm@10.12.4",
     "devDependencies": {
