@@ -1,4 +1,8 @@
 {
+    "private": "false",
+    "publishConfig": {
+        "access": "public"
+    },
     "name": "nextjs-device",
     "version": "0.0.0",
     "description": "",
@@ -8,7 +12,8 @@
         "dist"
     ],
     "scripts": {
-        "build": "tsdown"
+        "build": "tsdown",
+        "release": "pnpm build && bumpp && pnpm publish"
     },
     "dependencies": {
         "crawler-user-agents": "^1.21.0"
