@@ -1,0 +1,9 @@
+{
+    "name": "root",
+    "version": "0.0.0",
+    "type": "module",
+    "packageManager": "pnpm@10.12.4",
+    "devDependencies": {
+        "prettier": "^3.6.2"
+    }
+}

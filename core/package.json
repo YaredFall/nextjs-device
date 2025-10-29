@@ -1,0 +1,8 @@
+{
+    "name": "nextjs-device",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {},
+    "packageManager": "pnpm@10.12.4"
+}
