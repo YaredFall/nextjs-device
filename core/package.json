@@ -7,5 +7,8 @@
     "packageManager": "pnpm@10.12.4",
     "devDependencies": {
         "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "crawler-user-agents": "^1.21.0"
     }
 }

@@ -13,6 +13,10 @@ importers:
         version: 3.6.2
 
   core:
+    dependencies:
+      crawler-user-agents:
+        specifier: ^1.21.0
+        version: 1.21.0
     devDependencies:
       typescript:
         specifier: ^5.9.3
@@ -812,6 +816,9 @@ packages:
 
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
+
+  crawler-user-agents@1.21.0:
+    resolution: {integrity: sha512-/7Nc8NsAttQDdefHFFgrctvpuqZMK1QTZ/J9OY7Y4aDtjSkVfayZJOHYaIXuvsCHc5PlIRWHCoAIOJUxds5z2w==}
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -2665,6 +2672,8 @@ snapshots:
   concat-map@0.0.1: {}
 
   convert-source-map@2.0.0: {}
+
+  crawler-user-agents@1.21.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
